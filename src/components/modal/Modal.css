@@ -1,0 +1,72 @@
+.modalContainer{
+    border:  1px solid rgb(168, 167, 167);
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
+
+.closeIcon{
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.modal-header{
+    text-align: center;
+}
+
+.modal-main{
+    padding: 1rem 3rem;
+    display: flex;
+    gap: 3rem;
+    position: relative;
+}
+
+.container-items{
+    width: 67vw;
+    height: 40vh;
+    padding: 1.5rem;
+    overflow: scroll;
+    border:  1px solid rgb(221, 220, 220);
+    background-color: white;
+}
+
+.trashIcons{
+    color: red;
+    cursor: pointer;
+}
+
+.container-price{
+    width: 23vw;
+    height: 47vh;
+    text-align: center;
+    border:  1px solid rgb(221, 220, 220);
+    background-color: white;
+}
+
+hr{
+    margin: 2rem 03rem 0;
+}
+
+.wraber-btn{
+   display: flex;
+   gap: 1rem;
+   margin-top: 1.5rem;
+   justify-content: center;
+}
+
+.detailProduct-modal{
+    display: flex;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.detailProduct-modal img{
+    width: 6rem;
+    height: 7rem;
+}
